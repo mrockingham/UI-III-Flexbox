@@ -63,6 +63,10 @@ font-family: 'Bangers', cursive;
 letter-spacing: 1px;
 margin-bottom: 15px;
 }
+
+
+
+/*Start coding*/
 /*Body*/
 
 body{
@@ -111,6 +115,9 @@ padding-top: 5%;
 margin-bottom: 5%;
 
 }
+
+
+
 .title-Button{
 display: flex;
 justify-content: center;
@@ -133,6 +140,44 @@ width: 10%;
 max-width: 100%;
 /* background-color: blue;*/
 }
+
+			@media (max-width: 1186px){
+			.codeImg{
+				visibility: hidden;
+			}
+			}
+
+			@media (max-width: 1186px){
+				.title-Button{
+					padding-left: 30%;
+				}
+			}
+
+			@media (max-width: 1186px){
+				button{
+					width: 60%;
+				}
+			}
+
+			@media (max-width: 1186px){
+				.ideaLink{
+					visibility: hidden;
+				}
+				}
+			@media (max-width: 1186px){
+				.navLinks{
+					justify-content: space-between;
+				}
+			}
+			@media (max-width: 500px){
+				.navLinks{
+					flex-direction: column;
+					line-height: 200%;
+				}
+			}
+
+
+
 
 /*Main*/
 
@@ -338,7 +383,7 @@ border-width: thin;
 }
 /*Footer3*/
 
-footer{
+footer3{
 	width: 100%;
 	min-height: 25em;
 	background-image: url(../img/steps.jpg);
